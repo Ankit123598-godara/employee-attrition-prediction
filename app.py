@@ -21,7 +21,7 @@ def load_csv(path):
 
 if not SCORES_PATH.exists():
     st.error("Risk-score output was not found. First run all cells in Employee_Attrition_Prediction.ipynb, including the final save-outputs cell.")
-    st.code("outputs/employee_risk_scores.csv")
+    st.code("employee_risk_scores.csv")
     st.stop()
 
 scores = load_csv(SCORES_PATH)
