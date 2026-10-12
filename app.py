@@ -7,9 +7,9 @@ import plotly.express as px
 BASE_DIR = Path(__file__).resolve().parent
 DATA_PATH = BASE_DIR / "data" / "Palo_Alto_Networks_Attrition.csv"
 OUTPUT_DIR = BASE_DIR / "outputs"
-SCORES_PATH = OUTPUT_DIR / "employee_risk_scores.csv"
-METRICS_PATH = OUTPUT_DIR / "model_comparison_metrics.csv"
-SUMMARY_PATH = OUTPUT_DIR / "project_summary.json"
+SCORES_PATH =  "employee_risk_scores.csv"
+METRICS_PATH =  "model_comparison_metrics.csv"
+SUMMARY_PATH =  "project_summary.json"
 
 st.set_page_config(page_title="Employee Attrition Risk Dashboard", page_icon="📊", layout="wide")
 st.title("📊 Employee Attrition Prediction & Risk Dashboard")
